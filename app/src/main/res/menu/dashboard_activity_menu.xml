@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/viewProfileMenu"
+        android:icon="@drawable/ic_email_black_24dp"
+        app:showAsAction="withText"
+        android:title="View Profile"/>
+    <item android:title="Change Password"
+        android:id="@+id/changePasswordMenu"
+        android:icon="@drawable/ic_email_black_24dp"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/logoutMenu"
+        android:title="Logout"
+        app:showAsAction="withText"
+        android:icon="@drawable/ic_arrow_upward_black_24dp"/>
+
+</menu>
